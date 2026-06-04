@@ -13,3 +13,13 @@ public @interface MethodInfo {
 
     String description();
 }
+/* Data type for members
+primitive,String, Class reference(Class<?> type();),Enum,
+another annotation (NestedAnnotation nested();)
+ array of primitives   int[] values();
+*/
+/* ElementType
+The constants
+ANNOTATION_TYPE,CONSTRUCTOR,FIELD,LOCAL_VARIABLE,METHOD,PACKAGE,MODULE,PARAMETER,TYPE,
+and TYPE_PARAMETER
+*/
