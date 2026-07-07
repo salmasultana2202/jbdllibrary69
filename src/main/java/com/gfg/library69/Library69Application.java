@@ -17,6 +17,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.util.CollectionUtils;
 
 import java.util.*;
+import java.util.concurrent.CompletableFuture;
 
 @SpringBootApplication
 public class Library69Application implements CommandLineRunner {
@@ -72,8 +73,6 @@ public class Library69Application implements CommandLineRunner {
 //		System.out.println(redisTemplate.opsForList().rightPop("list"));
 //
 //		redisTemplate.opsForHash().put("book",book.getTitle(),book);
-
-
 
 
 

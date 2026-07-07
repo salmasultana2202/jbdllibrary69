@@ -13,7 +13,8 @@ public @interface MethodInfo {
 
     String description();
 }
-/* Data type for members
+/* RetentionPolicy.RUNTIME, CLASS, SOURCE(discarded by complier)
+ Data type for members
 primitive,String, Class reference(Class<?> type();),Enum,
 another annotation (NestedAnnotation nested();)
  array of primitives   int[] values();
