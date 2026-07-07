@@ -91,4 +91,9 @@ public class UserController {
  *
  * @PathVariable -> should be used in the  part of the URL  to map the values of Java variables.
  *
+ * @PathVariable → for resource identifiers in the URL
+ *
+ * @RequestParam → for optional query parameters
+ *
+ * @RequestBody → for JSON payloads in the request body
  * */

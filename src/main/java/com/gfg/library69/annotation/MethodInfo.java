@@ -5,7 +5,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Retention(RetentionPolicy.RUNTIME)
+@Retention(RetentionPolicy.RUNTIME)//CLASS, SOURCE(discarded by complier)
 @Target(ElementType.METHOD)
 public @interface MethodInfo {
 
@@ -13,3 +13,14 @@ public @interface MethodInfo {
 
     String description();
 }
+/* RetentionPolicy.RUNTIME, CLASS, SOURCE(discarded by complier)
+ Data type for members
+primitive,String, Class reference(Class<?> type();),Enum,
+another annotation (NestedAnnotation nested();)
+ array of primitives   int[] values();
+*/
+/* ElementType
+The constants
+ANNOTATION_TYPE,CONSTRUCTOR,FIELD,LOCAL_VARIABLE,METHOD,PACKAGE,MODULE,PARAMETER,TYPE,
+and TYPE_PARAMETER
+*/
